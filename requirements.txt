@@ -1,0 +1,21 @@
+import pandas as pd
+import webbrowser
+import tkinter as tk
+from tkinterweb import TkinterWeb
+from tkinter import *
+import joblib
+from sklearn.linear_model import LogisticRegression
+from sklearn import svm
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.metrics import accuracy_score
+from sklearn import metrics
+from sklearn.linear_model import LinearRegression
+from sklearn.svm import SVR
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+import pandas as pd
+import tkinter
